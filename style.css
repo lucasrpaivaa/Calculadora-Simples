@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-family: Helvetica;
+    min-height: 98vh;
+    background-image: url(fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.visual {
+    background-color: #5882FA;
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
+    border: solid;
+    border-color: #000;
+}
+
+button {
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 15px;
+    color: #5882FA;
+    font-size: 20px;
+    padding: 10px;
+}
+
+input {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+label {
+    color: #fff;
+}
+
+#mensagem{
+    padding: 0px 20px 0px 20px;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+</head>
+<body>
+    <div class="visual">
+    <form id="form">
+        <h1 style="color: #fff">Calculadora Simples</h1>
+
+        <label>Nome:</label> <br>
+        <input type="text" id="nome" required> <br>
+        <br/>
+
+        <label>Nota do Ciclo 1:</label> <br>
+        <input type="number" id="nota1" min="0" max="100" required> <br>
+        <br/>
+
+        <label>Nota do Ciclo 2:</label> <br>
+        <input type="number" id="nota2" min="0" max="100" required> <br>
+        <br/>
+
+        <label>Nota do Ciclo 3:</label> <br>
+        <input type="number" id="nota3" min="0" max="100" required> <br>
+        <br/> <br>
+
+        <button type="submit">Calcular sua média</button>
+    </form>
+    <div id="resultado">
+        <h2 style="color:#fff">Resultado</h2>
+        <p id="mensagem" style="color: #fff;"></p>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
